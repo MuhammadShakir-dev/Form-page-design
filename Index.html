@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <!--CSS Style Sheet Link-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Google Fonts Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;500;600;700&family=Bebas+Neue&family=Comfortaa:wght@300;400;500&family=Nunito:wght@200;300;400;500;600&family=Open+Sans:wght@300;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200&family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto+Mono:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700&family=Source+Code+Pro:wght@200;300;400;500;600;700;800&family=Source+Sans+Pro:ital,wght@0,200;0,300;1,400&family=Titillium+Web:wght@200;300;400;600;700;900&family=Ubuntu:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!--Main Container-->
+    <div class="main-container">
+
+        <!--Left Side-Navbar-->
+        <div class="Left-Navbar">
+
+            <!--Options Divs-->
+            <div class="step-1">
+                <div class="opt-1"><span>1</span></div>
+                <h3>Step 1</h3>
+                <h2>YOUR INFO</h2>
+            </div>
+
+            <div class="step-2">
+                <div class="opt-2"><span>2</span></div>
+                <h3>Step 3</h3>
+                <h2>SELECT PLAN</h2>
+            </div>
+
+            <div class="step-3">
+                <div class="opt-3"><span>3</span></div>
+                <h3>Step 3</h3>
+                <h2>ADD-ON</h2>
+            </div>
+
+            <div class="step-4">
+                <div class="opt-4"><span>4</span></div>
+                <h3>Step 4</h3>
+                <h2>SUMMERY</h2>
+            </div>
+        </div>
+        <!--Left side Navbar ends-->
+
+        <!--Right side form-->
+        <div class="Right-side-form">
+            <h1>Personal info</h1>
+            <p>Please provide your name, emailaddress & your phone no.</p>
+            <form action="submit">
+                <label for="Name">Name</label>
+                <input type="text" required maxlength="30" placeholder="Your name">
+
+                <label for="Email">Email Address</label>
+                <input type="email" required maxlength="20" placeholder="Your email">
+
+                <label for="Phone No">Phone No</label>
+                <input type="tel" required maxlenght="11" placeholder="e:g +923333188764">
+
+                <button>Next Step</button>
+            </form>
+        </div>
+        <!--Right side form end-->
+    </div>
+
+</body>
+
+</html>
